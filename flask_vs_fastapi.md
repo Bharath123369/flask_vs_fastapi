@@ -236,3 +236,81 @@ flask   :Displayed in HTML format
 fastapi :Displayed in JSON format
 
 
+# GitHub Markdown Cheatsheet
+
+## Headings
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+
+## Bold and Italics
+**This text is bold**  
+*This text is italic*  
+***This text is bold and italic***
+
+## Lists
+
+### Unordered List
+- Item One
+- Item Two
+  - Subitem A
+  - Subitem B
+
+### Ordered List
+1. First Item
+2. Second Item
+3. Third Item
+
+## Links
+[GitHub Homepage](https://github.com)
+
+## Images
+![Sample Image](https://via.placeholder.com/150)
+
+## Code Examples
+
+### Inline Code
+Here is some `inline code` in a sentence.
+
+### Code Block
+```python
+def hello_world():
+    print("Hello, World!")
+```
+
+## Blockquote
+> This is a blockquote for highlighting important text.
+
+## Horizontal Line
+
+---
+
+## Tables
+
+| Syntax | Description |
+|---------|-------------|
+| Header | Title |
+| Paragraph | Text |
+
+## Task Lists
+
+- [ ] Task not completed
+- [x] Task completed
+
+## Strikethrough
+
+~~This text is struck through~~
+
+## tabels
+
+Feature                 GET	                              POST
+Purpose	                Retrieve data	                    Submit or send data
+Params	                Sent via URL query	              Sent via request body
+Body	                 Not supported	JSON / form-data   supported
+Example	                /users?id=123	                    /login with { "user": "x" }
+
+
+
